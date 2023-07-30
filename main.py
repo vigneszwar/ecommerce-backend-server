@@ -21,7 +21,7 @@ products = [
         ],
     },
 ]
-
+# 1
 @app.route('/', methods=['GET'])
 def home():
     return """Welome and test the api as follows :<br>
